@@ -6,8 +6,6 @@ from ROAR.agent_module.pure_pursuit_agent import PurePursuitAgent
 from ROAR.configurations.configuration import Configuration as AgentConfig
 import argparse
 from misc.utils import str2bool
-from ROAR.agent_module.michael_pid_agent import PIDAgent
-from ROAR.agent_module.forward_only_agent import ForwardOnlyAgent
 from ROAR.agent_module.pid_fast_agent import PIDFastAgent
 
 

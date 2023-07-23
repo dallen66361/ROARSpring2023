@@ -5,7 +5,7 @@ import logging
 from typing import Optional, List, Dict
 
 
-class UDPMulticastCommunicator(Module):
+class UDPMulPticastCommunicator(Module):
     def save(self, **kwargs):
         pass
 

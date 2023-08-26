@@ -164,7 +164,7 @@ class CarlaBridge(Bridge):
     ) -> carla.VehicleControl:
         """Converts control to carla.VehicleControl"""
         return carla.VehicleControl(
-            throttle=abs(control.throttle),
+            throttle=abs(control.throttle) * 1.08,
             steer=control.steering,
             brake=control.brake,
             hand_brake=False,
